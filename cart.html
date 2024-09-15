@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#" class="logo">Dander</a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AllProducts.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping shop-bag"><span>0</span></i></a>
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <a href="login&register.html"><button id="log-reg"></button></a>
+                <li id="profileLink" class="hiddenBtn"><a class="active" href="profile.html">Profile</a></li>
+                <li id="logoutLink" class="hiddenBtn"><a href="#" id="logoutBtn">Logout</a></li>
+                <button id="themeToggle"><i class="fa-solid fa-moon"></i></button>
+            </ul>
+        </div>
+        <div id="mobile">
+    
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping shop-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="profile">
+        <h1>User Profile</h1>
+        <div id="userDetails">
+            <h3>Account Details:</h3>
+            <p><strong>Name:</strong> <span id="userName"></span></p>
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+        </div>
+        <h3>Your Cart:</h3>
+    
+        <div id="cartDetails">
+            <div id="cartItems"></div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/4f97da014a.js" crossorigin="anonymous"></script>
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/login&register.js"></script>
+    <script src="assets/js/productDetails.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
