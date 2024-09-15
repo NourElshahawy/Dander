@@ -229,7 +229,7 @@ scrollToTopButton.addEventListener("click", () => {
 });
 
 //   a. fetch products from the given API
-fetch("./assets/E_Commerce.JSON")
+fetch("https://nourelshahawy.github.io/Dander/assets/E_commerce.JSON")
   .then((response) => response.json())
   .then((data) => {
     const products = data.featuredProducts;
