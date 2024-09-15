@@ -229,7 +229,7 @@ scrollToTopButton.addEventListener("click", () => {
 });
 
 //   a. fetch products from the given API
-fetch("E_Commerce.JSON")
+fetch("./assets/E_Commerce.JSON")
   .then((response) => response.json())
   .then((data) => {
     const products = data.featuredProducts;

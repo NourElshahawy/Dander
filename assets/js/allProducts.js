@@ -1,5 +1,5 @@
 let featuredProducts = [];
-fetch("E_Commerce.JSON")
+fetch("./assets/E_Commerce.JSON")
   .then((res) => res.json())
   .then((res) => {
     const products = res.featuredProducts;
