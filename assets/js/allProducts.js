@@ -1,5 +1,5 @@
 let featuredProducts = [];
-fetch("https://nourelshahawy.github.io/Dander/assets/E_commerce.JSON")
+fetch("./assets/E_Commerce.JSON")
   .then((res) => res.json())
   .then((res) => {
     const products = res.featuredProducts;
